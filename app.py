@@ -6,7 +6,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-genai.configure(api_key="YOUR_API_KEY_HERE")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyCCs2A5eCb-HHOIkItw0Kp4-G_GWgI4CIQ")  # Replace with your actual API key
 
 model = genai.GenerativeModel("gemini-pro")
 chat = model.start_chat()
